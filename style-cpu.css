@@ -1,0 +1,362 @@
+body{
+    
+}
+.search-box{
+    border-left: 4px;
+    border-bottom: 4px;
+    border-top: 4px;
+    border-radius: 25px 0 0 25px;
+    border: none;
+    border-color: rgb(0, 221, 255);
+    margin-top: 7px;
+    margin-bottom: 5px;
+    margin-right: 0px;
+    margin-left: 27%;
+    width: 35%;
+    padding-top: 19px;
+    padding-bottom: 5px;
+    font-size: large;
+    text-align: center;
+
+}
+nav{
+    background-color: #787ff6;
+    padding-top: 4px;
+    padding-bottom: 7px;
+}
+#search-button{
+    position: relative;
+    border: none;
+    outline: none;
+    left: -4px;
+    padding-top: 5px;
+    margin-top: 7px;
+    padding-bottom: 5px;
+    border-color: tomato;
+    border-radius: 0 25px 25px 0;
+    background-color: tomato;
+    cursor: pointer;
+}
+#home:hover{
+    background-color: blue;
+}
+#profile:hover{
+    background-color: blue;
+}
+#cart:hover{
+    background-color: blue;
+}
+#home{
+    padding-top: 5px;
+    margin-top: 7px;
+    padding-bottom: 5px;
+    margin-left: 2%;
+    border-color: #1ca7ec;
+    border-radius: 12px;
+    background-color: #1ca7ec;
+}
+#profile{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-color: #1ca7ec;
+    border-radius: 12px;
+    background-color: #1ca7ec;
+    cursor: pointer;
+}
+#cart{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-color: #1ca7ec;
+    border-radius: 12px;
+    background-color: #1ca7ec;
+    cursor: pointer;
+}
+.bloc-list{
+    background-color: rgb(245, 236, 221);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bloc-list ul{
+    display: inline-flex;
+    color: #787ff6;
+    list-style: none;
+}
+.bloc-list ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.bloc-list ul li a{
+    color: blue;
+    text-decoration: none;
+}
+.sub-menu-1{
+    display: none;
+}
+.bloc-list ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background-color: rgb(245, 236, 221);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.bloc-list ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.bloc-list ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted grey;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.bloc-list ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+/*-----------------------------------------------------------------------
+------------------------------ Lhna <Nav> kmel! -------------------------
+-----------------------------------------------------------------------*/
+}
+.bloc-i3-10105{
+    border-color: white;
+    cursor: pointer;
+    width: 235px;
+    height: 245px;
+    margin-top: 30px;
+    margin-left: 210px;
+}
+.hover_i3_10{
+    position: absolute;
+    display: none;
+    width: 235px;
+    height: 245px;
+    top: 210px;
+    left:220px;
+}
+.p-i3-10105{
+    background-color: rgb(230, 230, 230);
+    width: 260px;
+    padding: 30px;
+    margin-left: 160px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    font-size: 102.5%;
+    text-decoration: line-through;
+}
+.bloc-i3-10105:hover .hover_i3_10{
+    display: inline;
+}
+.bloc-i3-12100{
+    vertical-align: top;
+    border-color: white;
+    cursor: pointer;
+    width: 260px;
+    height: 275px;
+    margin-top: -554px;
+    margin-left: 628px;
+}
+.hover_i3_12{
+    position: absolute;
+    display: none;
+    width: 195px;
+    height: 227px;
+    top: 222px;
+    left:665px;
+}
+.bloc-i3-12100:hover .hover_i3_12{
+    display: inline;
+}
+.p-i3-12100{
+    background-color: rgb(230, 230, 230);
+    width: 260px;
+    padding: 30px;
+    margin-left: 580px;
+    margin-top: -13px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    font-size: 102.5%;
+}
+.bloc-i5-11400{
+    border-color: white;
+    cursor: pointer;
+    width: 235px;
+    height: 245px;
+    margin-top: 60px;
+    margin-left: 215px;
+}
+.hover_i5_11{
+    position: absolute;
+    display: none;
+    width: 235px;
+    height: 245px;
+    top: 800px;
+    left:220px;
+}
+.bloc-i5-11400:hover .hover_i5_11{
+    display: inline;
+}
+.p-i5-11400{
+    background-color: rgb(230, 230, 230);
+    width: 260px;
+    padding: 30px;
+    margin-left: 160px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    font-size: 102.5%;
+}
+.bloc-r3-4100{
+    vertical-align: top;
+    border-color: white;
+    cursor: pointer;
+    width: 260px;
+    height: 275px;
+    margin-top: -554px;
+    margin-left: 1038px;
+}
+.hover_r3_41{
+    position: absolute;
+    display: none;
+    width: 215px;
+    height: 230px;
+    top: 222px;
+    left:1070px;
+}
+.p-r3-4100{
+    background-color: rgb(230, 230, 230);
+    width: 260px;
+    padding: 25px;
+    margin-left: 1000px;
+    margin-top: -13px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    font-size: 102.5%;
+}
+.bloc-r3-4100:hover .hover_r3_41{
+    display: inline;
+}
+.bloc-i5-12400{
+    border-color: white;
+    cursor: pointer;
+    width: 235px;
+    height: 245px;
+    margin-top: -548px;
+    margin-left: 633px;
+}
+.hover_i5_12{
+    position: absolute;
+    display: none;
+    width: 235px;
+    height: 245px;
+    top: 800px;
+    left:625px;
+}
+.bloc-i5-12400:hover .hover_i5_12{
+    display: inline;
+}
+.p-i5-12400{
+    background-color: rgb(230, 230, 230);
+    width: 260px;
+    padding: 30px;
+    margin-top: 11px;
+    margin-left: 580px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    font-size: 102.5%;
+}
+.bloc-r7-5800x{
+    vertical-align: top;
+    border-color: white;
+    cursor: pointer;
+    width: 260px;
+    height: 275px;
+    margin-top: -554px;
+    margin-left: 1038px;
+}
+.hover_r7_58{
+    position: absolute;
+    display: none;
+    width: 215px;
+    height: 230px;
+    top: 807px;
+    left:1063px;
+}
+.p-r7-5800x{
+    background-color: rgb(230, 230, 230);
+    width: 260px;
+    padding: 25px;
+    margin-left: 1000px;
+    margin-top: -13px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    font-size: 102.5%;
+}
+.bloc-r7-5800x:hover .hover_r7_58{
+    display: inline;
+}
+.bloc-i9-12900{
+    border-color: white;
+    cursor: pointer;
+    width: 235px;
+    height: 245px;
+    margin-top: 60px;
+    margin-left: 215px;
+}
+.hover_i9_12{
+    position: absolute;
+    display: none;
+    width: 235px;
+    height: 245px;
+    top: 1400px;
+    left:220px;
+}
+.bloc-i9-12900:hover .hover_i9_12{
+    display: inline;
+}
+.p-i9-12900{
+    background-color: rgb(230, 230, 230);
+    width: 260px;
+    padding: 30px;
+    margin-left: 160px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    font-size: 102.5%;
+}
+.bloc-r9-5950x{
+    vertical-align: top;
+    border-color: white;
+    cursor: pointer;
+    width: 260px;
+    height: 275px;
+    margin-top: -554px;
+    margin-left: 595px;
+}
+.hover_r9_59{
+    position: absolute;
+    display: none;
+    width: 215px;
+    height: 230px;
+    top: 1410px;
+    left:640px;
+}
+.p-r9-5950x{
+    background-color: rgb(230, 230, 230);
+    width: 260px;
+    padding: 25px;
+    margin-left: 580px;
+    margin-top: -13px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    font-size: 102.5%;
+}
+.bloc-r9-5950x:hover .hover_r9_59{
+    display: inline;
+}

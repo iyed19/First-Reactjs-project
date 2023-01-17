@@ -1,0 +1,487 @@
+body{
+    
+}
+.search-box{
+    border-left: 4px;
+    border-bottom: 4px;
+    border-top: 4px;
+    border-radius: 25px 0 0 25px;
+    border: none;
+    border-color: rgb(0, 221, 255);
+    margin-top: 7px;
+    margin-bottom: 5px;
+    margin-right: 0px;
+    margin-left: 27%;
+    width: 35%;
+    padding-top: 19px;
+    padding-bottom: 5px;
+    font-size: large;
+    text-align: center;
+
+}
+nav{
+    background-color: #787ff6;
+    padding-top: 4px;
+    padding-bottom: 7px;
+}
+#search-button{
+    position: relative;
+    border: none;
+    outline: none;
+    left: -4px;
+    padding-top: 5px;
+    margin-top: 7px;
+    padding-bottom: 5px;
+    border-color: tomato;
+    border-radius: 0 25px 25px 0;
+    background-color: tomato;
+    cursor: pointer;
+}
+#home:hover{
+    background-color: blue;
+}
+#profile:hover{
+    background-color: blue;
+}
+#cart:hover{
+    background-color: blue;
+}
+#home{
+    padding-top: 5px;
+    margin-top: 7px;
+    padding-bottom: 5px;
+    margin-left: 2%;
+    border-color: #1ca7ec;
+    border-radius: 12px;
+    background-color: #1ca7ec;
+}
+#profile{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-color: #1ca7ec;
+    border-radius: 12px;
+    background-color: #1ca7ec;
+    cursor: pointer;
+}
+#cart{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-color: #1ca7ec;
+    border-radius: 12px;
+    background-color: #1ca7ec;
+    cursor: pointer;
+}
+.bloc-list{
+    background-color: rgb(245, 236, 221);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bloc-list ul{
+    display: inline-flex;
+    color: #787ff6;
+    list-style: none;
+}
+.bloc-list ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.bloc-list ul li a{
+    color: blue;
+    text-decoration: none;
+}
+.sub-menu-1{
+    display: none;
+}
+.bloc-list ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background-color: rgb(245, 236, 221);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.bloc-list ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.bloc-list ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted grey;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.bloc-list ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+/*-----------------------------------------------------------------------
+------------------------------ Lhna <Nav> kmel! -------------------------
+-----------------------------------------------------------------------*/
+}
+.bloc-gt710{
+    border-color: white;
+    cursor: pointer;
+    width: 235px;
+    height: 245px;
+    margin-top: 30px;
+    margin-left: 210px;
+}
+.hover_gt710{
+    position: absolute;
+    display: none;
+    width: 235px;
+    height: 245px;
+    top: 210px;
+    left:220px;
+}
+.p-gt710{
+    background-color: rgb(230, 230, 230);
+    width: 260px;
+    padding: 30px;
+    margin-left: 160px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    font-size: 102.5%;
+}
+.bloc-gt710:hover .hover_gt710{
+    display: inline;
+}
+.bloc-gtx-1050ti{
+    vertical-align: top;
+    border-color: white;
+    cursor: pointer;
+    width: 260px;
+    height: 275px;
+    margin-top: -554px;
+    margin-left: 628px;
+}
+.hover_1050_ti{
+    position: absolute;
+    display: none;
+    width: 250px;
+    height: 237px;
+    top: 222px;
+    left:640px;
+}
+.bloc-gtx-1050ti:hover .hover_1050_ti{
+    display: inline;
+}
+.p-gtx-1050ti{
+    background-color: rgb(230, 230, 230);
+    width: 260px;
+    padding: 30px;
+    margin-left: 580px;
+    margin-top: -13px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    font-size: 102.5%;
+    text-decoration: line-through;
+}
+.bloc-rx-580{
+    border-color: white;
+    cursor: pointer;
+    width: 235px;
+    height: 245px;
+    margin-top: 60px;
+    margin-left: 215px;
+}
+.hover_rx_580{
+    position: absolute;
+    display: none;
+    width: 235px;
+    height: 245px;
+    top: 800px;
+    left:220px;
+}
+.bloc-rx-580:hover .hover_rx_580{
+    display: inline;
+}
+.p-rx-580{
+    background-color: rgb(230, 230, 230);
+    width: 260px;
+    padding: 30px;
+    margin-left: 160px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    font-size: 102.5%;
+}
+.bloc-gtx-1650{
+    vertical-align: top;
+    border-color: white;
+    cursor: pointer;
+    width: 260px;
+    height: 275px;
+    margin-top: -554px;
+    margin-left: 1038px;
+}
+.hover_gtx_1650{
+    position: absolute;
+    display: none;
+    width: 240px;
+    height: 240px;
+    top: 222px;
+    left:1052px;
+}
+.p-gtx-1650{
+    background-color: rgb(230, 230, 230);
+    width: 260px;
+    padding: 25px;
+    margin-left: 1000px;
+    margin-top: -13px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    font-size: 102.5%;
+}
+.bloc-gtx-1650:hover .hover_gtx_1650{
+    display: inline;
+}
+.bloc-rtx-2060{
+    border-color: white;
+    cursor: pointer;
+    width: 235px;
+    height: 245px;
+    margin-top: -548px;
+    margin-left: 633px;
+}
+.hover_2060{
+    position: absolute;
+    display: none;
+    width: 235px;
+    height: 245px;
+    top: 800px;
+    left:625px;
+}
+.bloc-rtx-2060:hover .hover_2060{
+    display: inline;
+}
+.p-rtx-2060{
+    background-color: rgb(230, 230, 230);
+    width: 260px;
+    padding: 30px;
+    margin-top: 11px;
+    margin-left: 580px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    font-size: 102.5%;
+    text-decoration: line-through;
+}
+.bloc-rtx-3050{
+    vertical-align: top;
+    border-color: white;
+    cursor: pointer;
+    width: 260px;
+    height: 275px;
+    margin-top: -554px;
+    margin-left: 1038px;
+}
+.hover_3050{
+    position: absolute;
+    display: none;
+    width: 353px;
+    height: 363px;
+    top: 731px;
+    left:990px;
+}
+.p-rtx-3050{
+    background-color: rgb(230, 230, 230);
+    width: 260px;
+    padding: 25px;
+    margin-left: 1000px;
+    margin-top: -13px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    font-size: 102.5%;
+}
+.bloc-rtx-3050:hover .hover_3050{
+    display: inline;
+}
+.bloc-rx-6600{
+    border-color: white;
+    cursor: pointer;
+    width: 235px;
+    height: 245px;
+    margin-top: 60px;
+    margin-left: 215px;
+}
+.hover_6600{
+    position: absolute;
+    display: none;
+    width: 235px;
+    height: 245px;
+    top: 1390px;
+    left:220px;
+}
+.bloc-rx-6600:hover .hover_6600{
+    display: inline;
+}
+.p-rx-6600{
+    background-color: rgb(230, 230, 230);
+    width: 260px;
+    padding: 30px;
+    margin-left: 160px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    font-size: 102.5%;
+}
+.bloc-rtx-3060{
+    vertical-align: top;
+    border-color: white;
+    cursor: pointer;
+    width: 260px;
+    height: 275px;
+    margin-top: -554px;
+    margin-left: 595px;
+}
+.hover_3060{
+    position: absolute;
+    display: none;
+    width: 235px;
+    height: 235px;
+    top: 1380px;
+    left:620px;
+}
+.p-rtx-3060{
+    background-color: rgb(230, 230, 230);
+    width: 260px;
+    padding: 25px;
+    margin-left: 580px;
+    margin-top: -13px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    font-size: 102.5%;
+}
+.bloc-rtx-3060:hover .hover_3060{
+    display: inline;
+}
+.bloc-rtx-3070{
+    vertical-align: top;
+    border-color: white;
+    cursor: pointer;
+    width: 260px;
+    height: 275px;
+    margin-top: -554px;
+    margin-left: 1035px;
+}
+.hover_3070ti{
+    position: absolute;
+    display: none;
+    width: 255px;
+    height: 235px;
+    top: 1380px;
+    left:1045px;
+}
+.p-rtx-3070{
+    background-color: rgb(230, 230, 230);
+    width: 260px;
+    padding: 25px;
+    margin-left: 1000px;
+    margin-top: -13px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    font-size: 102.5%;
+}
+.bloc-rtx-3070:hover .hover_3070ti{
+    display: inline;
+}
+.bloc-rtx-3080{
+    vertical-align: top;
+    border-color: white;
+    cursor: pointer;
+    width: 260px;
+    height: 275px;
+    margin-top: 20px;
+    margin-left: 190px;
+}
+.hover_3080{
+    position: absolute;
+    display: none;
+    width: 235px;
+    height: 235px;
+    top: 1950px;
+    left:210px;
+}
+.p-rtx-3080{
+    background-color: rgb(230, 230, 230);
+    width: 260px;
+    padding: 25px;
+    margin-left: 160px;
+    margin-top: -13px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    font-size: 102.5%;
+}
+.bloc-rtx-3080:hover .hover_3080{
+    display: inline;
+}
+.bloc-rtx-4080{
+    vertical-align: top;
+    border-color: white;
+    cursor: pointer;
+    width: 260px;
+    height: 275px;
+    margin-top: -550px;
+    margin-left: 600px;
+}
+.hover_4080{
+    position: absolute;
+    display: none;
+    width: 235px;
+    height: 205px;
+    top: 1970px;
+    left:620px;
+}
+.p-rtx-4080{
+    background-color: rgb(230, 230, 230);
+    width: 260px;
+    padding: 25px;
+    margin-left: 580px;
+    margin-top: -13px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    font-size: 102.5%;
+}
+.bloc-rtx-4080:hover .hover_4080{
+    display: inline;
+}
+.bloc-rtx-4090{
+    vertical-align: top;
+    border-color: white;
+    cursor: pointer;
+    width: 260px;
+    height: 275px;
+    margin-top: -575px;
+    margin-left: 1035px;
+}
+.hover_4090{
+    position: absolute;
+    display: none;
+    width: 235px;
+    height: 235px;
+    top: 1930px;
+    left:1045px;
+}
+.p-rtx-4090{
+    background-color: rgb(230, 230, 230);
+    width: 260px;
+    padding: 25px;
+    margin-left: 1000px;
+    margin-top: 11px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    font-size: 102.5%;
+}
+.bloc-rtx-4090:hover .hover_4090{
+    display: inline;
+}

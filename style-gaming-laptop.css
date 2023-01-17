@@ -1,0 +1,485 @@
+body{
+    
+}
+.search-box{
+    border-left: 4px;
+    border-bottom: 4px;
+    border-top: 4px;
+    border-radius: 25px 0 0 25px;
+    border: none;
+    border-color: rgb(0, 221, 255);
+    margin-top: 7px;
+    margin-bottom: 5px;
+    margin-right: 0px;
+    margin-left: 27%;
+    width: 35%;
+    padding-top: 19px;
+    padding-bottom: 5px;
+    font-size: large;
+    text-align: center;
+
+}
+nav{
+    background-color: #787ff6;
+    padding-top: 4px;
+    padding-bottom: 7px;
+}
+#search-button{
+    position: relative;
+    border: none;
+    outline: none;
+    left: -4px;
+    padding-top: 5px;
+    margin-top: 7px;
+    padding-bottom: 5px;
+    border-color: tomato;
+    border-radius: 0 25px 25px 0;
+    background-color: tomato;
+    cursor: pointer;
+}
+#home:hover{
+    background-color: blue;
+}
+#profile:hover{
+    background-color: blue;
+}
+#cart:hover{
+    background-color: blue;
+}
+#home{
+    padding-top: 5px;
+    margin-top: 7px;
+    padding-bottom: 5px;
+    margin-left: 2%;
+    border-color: #1ca7ec;
+    border-radius: 12px;
+    background-color: #1ca7ec;
+}
+#profile{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-color: #1ca7ec;
+    border-radius: 12px;
+    background-color: #1ca7ec;
+    cursor: pointer;
+}
+#cart{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-color: #1ca7ec;
+    border-radius: 12px;
+    background-color: #1ca7ec;
+    cursor: pointer;
+}
+.bloc-list{
+    background-color: rgb(245, 236, 221);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bloc-list ul{
+    display: inline-flex;
+    color: #787ff6;
+    list-style: none;
+}
+.bloc-list ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.bloc-list ul li a{
+    color: blue;
+    text-decoration: none;
+}
+.sub-menu-1{
+    display: none;
+}
+.bloc-list ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background-color: rgb(245, 236, 221);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.bloc-list ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.bloc-list ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted grey;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.bloc-list ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+/*-----------------------------------------------------------------------
+------------------------------ Lhna <Nav> kmel! -------------------------
+-----------------------------------------------------------------------*/
+}
+.bloc-1{
+    border-color: white;
+    cursor: pointer;
+    width: 235px;
+    height: 245px;
+    margin-top: 30px;
+    margin-left: 210px;
+}
+.hover_1{
+    position: absolute;
+    display: none;
+    width: 235px;
+    height: 245px;
+    top: 210px;
+    left:220px;
+}
+.p-1{
+    background-color: rgb(230, 230, 230);
+    width: 260px;
+    padding: 30px;
+    margin-left: 160px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    font-size: 102.5%;
+}
+.bloc-1:hover .hover_1{
+    display: inline;
+}
+.bloc-2{
+    vertical-align: top;
+    border-color: white;
+    cursor: pointer;
+    width: 260px;
+    height: 275px;
+    margin-top: -572px;
+    margin-left: 628px;
+}
+.hover_2{
+    position: absolute;
+    display: none;
+    width: 250px;
+    height: 270px;
+    top: 202px;
+    left:640px;
+}
+.bloc-2:hover .hover_2{
+    display: inline;
+}
+.p-2{
+    background-color: rgb(230, 230, 230);
+    width: 260px;
+    padding: 30px;
+    margin-left: 580px;
+    margin-top: -13px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    font-size: 102.5%;
+}
+.bloc-3{
+    vertical-align: top;
+    border-color: white;
+    cursor: pointer;
+    width: 260px;
+    height: 275px;
+    margin-top: -570px;
+    margin-left: 1038px;
+}
+.hover_3{
+    position: absolute;
+    display: none;
+    width: 240px;
+    height: 240px;
+    top: 222px;
+    left:1052px;
+}
+.p-3{
+    background-color: rgb(230, 230, 230);
+    width: 260px;
+    padding: 25px;
+    margin-left: 1000px;
+    margin-top: -13px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    font-size: 102.5%;
+}
+.bloc-3:hover .hover_3{
+    display: inline;
+}
+.bloc-4{
+    border-color: white;
+    cursor: pointer;
+    width: 235px;
+    height: 245px;
+    margin-top: 60px;
+    margin-left: 215px;
+}
+.hover_4{
+    position: absolute;
+    display: none;
+    width: 235px;
+    height: 245px;
+    top: 820px;
+    left:220px;
+}
+.bloc-4:hover .hover_4{
+    display: inline;
+}
+.p-4{
+    background-color: rgb(230, 230, 230);
+    width: 260px;
+    padding: 30px;
+    margin-left: 160px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    font-size: 102.5%;
+}
+.bloc-5{
+    border-color: white;
+    cursor: pointer;
+    width: 235px;
+    height: 245px;
+    margin-top: -559px;
+    margin-left: 633px;
+}
+.hover_5{
+    position: absolute;
+    display: none;
+    width: 235px;
+    height: 245px;
+    top: 830px;
+    left:625px;
+}
+.bloc-5:hover .hover_5{
+    display: inline;
+}
+.p-5{
+    background-color: rgb(230, 230, 230);
+    width: 260px;
+    padding: 30px;
+    margin-top: 1px;
+    margin-left: 580px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    font-size: 102.5%;
+}
+.bloc-6{
+    vertical-align: top;
+    border-color: white;
+    cursor: pointer;
+    width: 235px;
+    height: 245px;
+    margin-top: -580px;
+    margin-left: 1038px;
+}
+.hover_6{
+    position: absolute;
+    display: none;
+    width: 255px;
+    height: 245px;
+    top: 830px;
+    left:1045px;
+}
+.p-6{
+    background-color: rgb(230, 230, 230);
+    width: 260px;
+    padding: 30px;
+    margin-left: 1000px;
+    margin-top: 23px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    font-size: 102.5%;
+}
+.bloc-6:hover .hover_6{
+    display: inline;
+}
+.bloc-7{
+    border-color: white;
+    cursor: pointer;
+    width: 235px;
+    height: 245px;
+    margin-top: 60px;
+    margin-left: 215px;
+}
+.hover_7{
+    position: absolute;
+    display: none;
+    width: 255px;
+    height: 245px;
+    top: 1440px;
+    left:220px;
+}
+.bloc-7:hover .hover_7{
+    display: inline;
+}
+.p-7{
+    background-color: rgb(230, 230, 230);
+    width: 260px;
+    padding: 30px;
+    margin-left: 160px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    font-size: 102.5%;
+}
+.bloc-8{
+    vertical-align: top;
+    border-color: white;
+    cursor: pointer;
+    width: 260px;
+    height: 275px;
+    margin-top: -570px;
+    margin-left: 595px;
+}
+.hover_8{
+    position: absolute;
+    display: none;
+    width: 255px;
+    height: 235px;
+    top: 1440px;
+    left:605px;
+}
+.p-8{
+    background-color: rgb(230, 230, 230);
+    width: 260px;
+    padding: 25px;
+    margin-left: 580px;
+    margin-top: -13px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    font-size: 102.5%;
+}
+.bloc-8:hover .hover_8{
+    display: inline;
+}
+.bloc-9{
+    vertical-align: top;
+    border-color: white;
+    cursor: pointer;
+    width: 260px;
+    height: 275px;
+    margin-top: -570px;
+    margin-left: 1035px;
+}
+.hover_9{
+    position: absolute;
+    display: none;
+    width: 255px;
+    height: 235px;
+    top: 1440px;
+    left:1045px;
+}
+.p-9{
+    background-color: rgb(230, 230, 230);
+    width: 260px;
+    padding: 25px;
+    margin-left: 1000px;
+    margin-top: -13px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    font-size: 102.5%;
+}
+.bloc-9:hover .hover_9{
+    display: inline;
+}
+.bloc-10{
+    vertical-align: top;
+    border-color: white;
+    cursor: pointer;
+    width: 260px;
+    height: 275px;
+    margin-top: 20px;
+    margin-left: 190px;
+}
+.hover_10{
+    position: absolute;
+    display: none;
+    width: 255px;
+    height: 375px;
+    top: 1950px;
+    left:200px;
+}
+.p-10{
+    background-color: rgb(230, 230, 230);
+    width: 260px;
+    padding: 25px;
+    margin-left: 160px;
+    margin-top: -13px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    font-size: 102.5%;
+}
+.bloc-10:hover .hover_10{
+    display: inline;
+}
+.bloc-11{
+    vertical-align: top;
+    border-color: white;
+    cursor: pointer;
+    width: 260px;
+    height: 275px;
+    margin-top: -570px;
+    margin-left: 600px;
+}
+.hover_11{
+    position: absolute;
+    display: none;
+    width: 255px;
+    height: 225px;
+    top: 2040px;
+    left:605px;
+}
+.p-11{
+    background-color: rgb(230, 230, 230);
+    width: 260px;
+    padding: 25px;
+    margin-left: 580px;
+    margin-top: -13px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    font-size: 102.5%;
+}
+.bloc-11:hover .hover_11{
+    display: inline;
+}
+.bloc-12{
+    vertical-align: top;
+    border-color: white;
+    cursor: pointer;
+    width: 260px;
+    height: 235px;
+    margin-top: -555px;
+    margin-left: 1035px;
+}
+.hover_12{
+    position: absolute;
+    display: none;
+    width: 280px;
+    height: 235px;
+    top: 2047px;
+    left:1045px;
+}
+.p-12{
+    background-color: rgb(230, 230, 230);
+    width: 260px;
+    padding: 25px;
+    margin-left: 1000px;
+    margin-top: 11px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    font-size: 102.5%;
+}
+.bloc-12:hover .hover_12{
+    display: inline;
+}
